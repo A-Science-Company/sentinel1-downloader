@@ -1,0 +1,5 @@
+# Ignore downloaded satellite data
+data/
+
+# Ignore virtual environment
+s1/
