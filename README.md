@@ -17,5 +17,9 @@ Python scripts for downloading Sentinel-1 Ground Range Detected (GRD) data from 
 - Faster processing but may download extra tiles outside actual AOI
 - Ideal for rectangular regions or when precise boundaries aren't critical
 
-```bash
-python main.py
+
+### 2. `geom.py` - Bounding Box Approach
+- Uses the exact polygon shape for intersection checks
+- Downloads only tiles that intersect with the actual AOI polygon
+- More precise but computationally intensive
+- Ideal for irregular shapes or when minimizing data download is critical
